@@ -6,9 +6,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    # Runs every day at 00:00 UTC (5:30 AM IST)
     - cron: '0 0 * * *'
-  # Allows you to manually trigger the run from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -19,11 +17,14 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up JDK 17
-      uses: actions/setup-java@v5
+      uses: actions/setup-java@v4
       with:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
 
+    - name: Setup Chrome Browser
+      uses: browser-actions/setup-chrome@v1
+
     - name: Build and Test with Maven
-      run: mvn -B test --file pom.xml
+      run: mvn -B test --file pom.xml -Dtest=Multiple_Window
