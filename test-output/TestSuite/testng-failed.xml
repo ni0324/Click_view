@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Vinominds.SelinumProject.S2_grouping">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Vinominds.SelinumProject.S2_grouping -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+  <test thread-count="5" name="Sanity Tests(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Vinominds.SelinumProject.S2_grouping">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="invalidLoginTest"/>
+        </methods>
+      </class> <!-- Vinominds.SelinumProject.S2_grouping -->
+    </classes>
+  </test> <!-- Sanity Tests(failed) -->
+  <test thread-count="5" name="Regression Tests(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Vinominds.SelinumProject.S2_grouping">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="emptyUsernameTest"/>
+        </methods>
+      </class> <!-- Vinominds.SelinumProject.S2_grouping -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+  <test thread-count="5" name="Pongal Tests(failed)">
+    <groups>
+      <run>
+        <include name="pongal"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Vinominds.SelinumProject.S2_grouping">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="pongalTest"/>
+        </methods>
+      </class> <!-- Vinominds.SelinumProject.S2_grouping -->
+    </classes>
+  </test> <!-- Pongal Tests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

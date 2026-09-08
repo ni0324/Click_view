@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="URL Check Suite" parallel="methods" thread-count="3">
+    <test name="URL Testing">
+        <classes>
+            <class name="Vinominds.SelinumProject.Parallel_view_TG"/>
+            <class name="Vinominds.SelinumProject.LabtestNG"/>
+            <class name="Vinominds.SelinumProject.TestNG"/>
+        </classes>
+    </test>
+</suite>

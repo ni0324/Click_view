@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Vinominds Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Grouped Tests(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+        <include name="regression"/>
+        <include name="pongal"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Vinominds.SelinumProject.S2_grouping">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="emptyUsernameTest"/>
+          <include name="invalidLoginTest"/>
+        </methods>
+      </class> <!-- Vinominds.SelinumProject.S2_grouping -->
+    </classes>
+  </test> <!-- Grouped Tests(failed) -->
+</suite> <!-- Failed suite [Vinominds Test Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ElementSuite" parallel="classes" thread-count="2">
+
+    <test name="FormTest">
+
+        <classes>
+
+            <class name="Vinominds.SelinumProject.AllBA_TG1"/>
+            <class name="Vinominds.SelinumProject.TG_2_Dataentry"/>
+
+        </classes>
+
+    </test>
+
+</suite>
+    

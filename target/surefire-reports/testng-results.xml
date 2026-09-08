@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-08T09:42:59 IST" name="ElementSuite" finished-at="2026-09-08T09:48:55 IST" duration-ms="356549">
+    <groups>
+    </groups>
+    <test started-at="2026-09-08T09:42:59 IST" name="FormTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="356549">
+      <class name="Vinominds.SelinumProject.AllBA_TG1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:42:59 IST" name="launchBrowser" finished-at="2026-09-08T09:43:04 IST" duration-ms="4940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="standardUser()[pri:1, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:43:04 IST" name="standardUser" finished-at="2026-09-08T09:44:09 IST" duration-ms="64977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:09 IST" name="closeBrowser" finished-at="2026-09-08T09:44:11 IST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:11 IST" name="launchBrowser" finished-at="2026-09-08T09:44:13 IST" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="lockedOutUser()[pri:2, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:13 IST" name="lockedOutUser" finished-at="2026-09-08T09:44:16 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:16 IST" name="closeBrowser" finished-at="2026-09-08T09:44:18 IST" duration-ms="2304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:18 IST" name="launchBrowser" finished-at="2026-09-08T09:44:19 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="problemUser()[pri:3, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:44:19 IST" name="problemUser" finished-at="2026-09-08T09:45:24 IST" duration-ms="64467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:45:24 IST" name="closeBrowser" finished-at="2026-09-08T09:45:26 IST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:45:26 IST" name="launchBrowser" finished-at="2026-09-08T09:45:28 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="performanceGlitchUser()[pri:4, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:45:28 IST" name="performanceGlitchUser" finished-at="2026-09-08T09:46:37 IST" duration-ms="69497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceGlitchUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:46:37 IST" name="closeBrowser" finished-at="2026-09-08T09:46:39 IST" duration-ms="2262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:46:39 IST" name="launchBrowser" finished-at="2026-09-08T09:46:40 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="errorUser()[pri:5, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:46:40 IST" name="errorUser" finished-at="2026-09-08T09:47:45 IST" duration-ms="64446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:47:45 IST" name="closeBrowser" finished-at="2026-09-08T09:47:47 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:47:47 IST" name="launchBrowser" finished-at="2026-09-08T09:47:49 IST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="visualUser()[pri:6, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:47:49 IST" name="visualUser" finished-at="2026-09-08T09:48:53 IST" duration-ms="64474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.AllBA_TG1@67d48005]" started-at="2026-09-08T09:48:53 IST" name="closeBrowser" finished-at="2026-09-08T09:48:55 IST" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Vinominds.SelinumProject.AllBA_TG1 -->
+      <class name="Vinominds.SelinumProject.TG_2_Dataentry">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Vinominds.SelinumProject.TG_2_Dataentry@55183b20]" started-at="2026-09-08T09:42:59 IST" name="launchBrowser" finished-at="2026-09-08T09:43:08 IST" duration-ms="8866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="FillDataEntryForm()[pri:1, instance:Vinominds.SelinumProject.TG_2_Dataentry@55183b20]" started-at="2026-09-08T09:43:08 IST" name="FillDataEntryForm" finished-at="2026-09-08T09:43:16 IST" duration-ms="7915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillDataEntryForm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Vinominds.SelinumProject.TG_2_Dataentry@55183b20]" started-at="2026-09-08T09:43:16 IST" name="closeBrowser" finished-at="2026-09-08T09:43:17 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Vinominds.SelinumProject.TG_2_Dataentry -->
+    </test> <!-- FormTest -->
+  </suite> <!-- ElementSuite -->
+  <suite started-at="2026-09-08T09:48:55 IST" name="Testing Suite" finished-at="2026-09-08T09:48:55 IST" duration-ms="13">
+    <groups>
+      <group name="regression">
+        <method signature="S1_Grouping.paymentTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="paymentTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+        <method signature="S1_Grouping.refundTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="refundTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="S1_Grouping.loginTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="loginTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+        <method signature="S1_Grouping.logoutTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="logoutTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="S1_Grouping.productTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="productTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+        <method signature="S1_Grouping.searchTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" name="searchTest" class="Vinominds.SelinumProject.S1_Grouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-09-08T09:48:55 IST" name="Smoke Sanity Regression" finished-at="2026-09-08T09:48:55 IST" duration-ms="13">
+      <class name="Vinominds.SelinumProject.S1_Grouping">
+        <test-method signature="loginTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="loginTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="logoutTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="logoutTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="paymentTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="paymentTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentTest -->
+        <test-method signature="productTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="productTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="refundTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="refundTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refundTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchTest()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="searchTest" finished-at="2026-09-08T09:48:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="beforeMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Vinominds.SelinumProject.S1_Grouping@6b2ea799]" started-at="2026-09-08T09:48:55 IST" name="afterMethod" finished-at="2026-09-08T09:48:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Vinominds.SelinumProject.S1_Grouping -->
+    </test> <!-- Smoke Sanity Regression -->
+  </suite> <!-- Testing Suite -->
+</testng-results>
