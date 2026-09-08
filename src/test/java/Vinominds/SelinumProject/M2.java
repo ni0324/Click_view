@@ -1,35 +1,30 @@
 package Vinominds.SelinumProject;
 
 import java.util.Set;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Multiple_Window {
+public class M2 {
 
     WebDriver driver;
 
     @BeforeMethod
     public void setup() {
+        
         WebDriverManager.chromedriver().setup();
 
-        // Configure headless Chrome for GitHub Actions CI environment
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--window-size=1920,1080");
-
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
         driver.get("https://www.saucedemo.com/");
@@ -37,10 +32,12 @@ public class Multiple_Window {
 
     @Test
     public void multipleWindow() {
+        
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("login-button")).click();
 
+        
         ((JavascriptExecutor) driver).executeScript("window.open('https://www.flipkart.com/','_blank');");
 
         String parent = driver.getWindowHandle();
